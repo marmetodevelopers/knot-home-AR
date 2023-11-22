@@ -1,0 +1,117 @@
+.video_with_text_section {
+  background-color: #FAF5EF;
+  display: flex;
+  align-items: center;
+  column-gap: 4.8rem;
+}
+.total_video_container {
+  width: 59.2rem;
+  height: 36.1rem;
+}
+.total_text_section {
+  width: 56rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading_text_area {
+  font-size: 3.2rem;
+  padding-bottom: 24px;
+  line-height: normal;
+  font-family: pp fragment;
+}
+.paragraph_text p {
+  margin: 0%;
+  line-height: 21.6px;
+  text-align: center;
+  padding-bottom: 4rem;
+  color: #3D3D3D;
+}
+.description_quality {
+  font-size: 14px;
+  line-height: 18px;
+  color: #3D3D3D;
+  letter-spacing: normal;
+}
+.quality_container {
+  padding-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  column-gap: 4rem;
+}
+.video_with_text_button a {
+  margin: 0%;
+  font-size: 14px;
+  font-weight: 700;
+}
+.svg__content {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 14px;
+}
+.paragraph_text2 p {
+  display: none;
+}
+.heading_text_area2 {
+  display: none;
+}
+.button_styling_ {
+  background: #CCD6BD;
+  color: #3d3d3d;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: .16px;
+  --border-offset: none;
+  padding: 8px 97px 8px 100px;
+  margin-top: 32px;
+  width: 326px;
+}
+@media screen and (max-width:768px) {
+  .video_with_text_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .total_video_container {
+    width: 32.8rem;
+    height: 20rem;
+  }
+  .heading_text_area {
+    display: none;
+  }
+  .paragraph_text p {
+    display: none;
+  }
+  .heading_text_area2 {
+    display: block;
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+    line-height: 26.4px;
+    font-family: pp fragment;
+  }
+  .paragraph_text2 p {
+    display: block;
+    margin: 0%;
+    font-size: 14px;
+    line-height: 16.8px;
+    text-align: center;
+    padding-bottom: 3rem;
+    color: #000;
+  }
+  .total_text_section {
+    width: 32.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .quality_container {
+    padding-bottom: 2.3rem;
+    padding-top: 2.6rem;
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+  }
+  /* .button_styling {
+    width: 328px;
+  } */
+}

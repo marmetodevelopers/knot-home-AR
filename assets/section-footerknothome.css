@@ -1,0 +1,128 @@
+.knothome_footer {
+  background-color: #FAF5EF;
+  padding: 0%;
+}
+.icon_classs {
+  text-decoration: none;
+}
+.second_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 1px solid;
+  justify-content: flex-end;
+  padding-bottom: 5rem;
+}
+.block_and_icons_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-bottom: 10rem;
+}
+.heading_linklist {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 6rem;
+}
+.icons_svg_settings {
+  padding-top: 6rem;
+  order: 2;
+}
+.heading_of_icon {
+  margin-top: 0%;
+}
+.image_position {
+  padding-right: 80px;
+}
+.link_list_text {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: 'Karla';
+}
+.footer_container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.second_div {
+  order: 2;
+}
+.first_div_container {
+  order: 1;
+}
+.container_block {
+  display: flex;
+  column-gap: 10.5rem;
+}
+/* .list_of_menu {
+  padding-top: 5px;
+  padding-bottom: 5px;
+} */
+.icons_of_footer {
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+}
+@media screen and (max-width:768px) {
+  .first_div_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer_container {
+    display: grid;
+    grid-template-columns: none;
+  }
+  .second_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid;
+    border-left: none;
+    justify-content: center;
+    row-gap: 2rem;
+    padding-bottom: 2rem;
+  }
+  .image_position {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0%;
+  }
+  .copyright_knhome {
+    margin: 0%;
+  }
+  .heading_linklist {
+    padding-top: 0%;
+  }
+  .container_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 2.6rem;
+    padding-top: 3rem;
+  }
+  .block_and_icons_container {
+    display: block;
+    padding-bottom: 3rem;
+  }
+  .icons_svg_settings {
+    padding-top: 3rem;
+    padding-left: 3rem;
+  }
+  .anchor_link_footer {
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+  .footer-block__details-content {
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* .list_of_menu {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  } */
+}

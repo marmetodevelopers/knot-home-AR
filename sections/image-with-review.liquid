@@ -1,0 +1,182 @@
+{{ 'image-with-review.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .image_with_review_container {
+    background-color: {{ section.settings.background_color }};
+  }
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0  | minus: 24}}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 | minus: 24}}px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+{%- endstyle -%}
+<div class="page-width image_with_review_container section-{{ section.id }}-padding">
+  <div class="heading_div {{section.settings.heading_size}} center">
+    {{ section.settings.heading_title }}
+  </div>
+  <div class="image_review_container">
+    <div class="{{section.settings.image_ratio}} image_div">
+      {% render 'responsive-image'  desktopImage : section.settings.review_image | image_url %}
+    </div>
+    <div class="text_area_container">
+      <div class="{{section.settings.description_style}} first_paragraph">
+        {{ section.settings.description }}
+      </div>
+      <div class="author_class {{section.settings.description_style2}}">{{ section.settings.author }}</div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "image with review",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#CCD6BD"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading_title",
+      "default": "choose your products",
+      "label": "heading for the products"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "review_image",
+      "label": "Add Image"
+    },
+
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.featured-collection.settings.image_ratio.options__1.label"
+        },
+        {
+          "value": "portrait",
+          "label": "t:sections.featured-collection.settings.image_ratio.options__2.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.featured-collection.settings.image_ratio.options__3.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.featured-collection.settings.image_ratio.label"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "description for your products"
+    },
+
+    {
+      "type": "select",
+      "id": "description_style",
+      "label": "t:sections.featured-collection.settings.description_style.label",
+      "options": [
+        {
+          "value": "body",
+          "label": "t:sections.featured-collection.settings.description_style.options__1.label"
+        },
+        {
+          "value": "subtitle",
+          "label": "t:sections.featured-collection.settings.description_style.options__2.label"
+        },
+        {
+          "value": "uppercase",
+          "label": "t:sections.featured-collection.settings.description_style.options__3.label"
+        }
+      ],
+      "default": "body"
+    },
+
+    {
+      "type": "inline_richtext",
+      "id": "author",
+      "label": "Author name"
+    },
+    {
+      "type": "select",
+      "id": "description_style2",
+      "label": "t:sections.featured-collection.settings.description_style.label",
+      "options": [
+        {
+          "value": "body",
+          "label": "t:sections.featured-collection.settings.description_style.options__1.label"
+        },
+        {
+          "value": "subtitle",
+          "label": "t:sections.featured-collection.settings.description_style.options__2.label"
+        },
+        {
+          "value": "uppercase",
+          "label": "t:sections.featured-collection.settings.description_style.options__3.label"
+        }
+      ],
+      "default": "body"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "image with review"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,326 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "c90ecd6c-c28a-42af-be70-001c23602370": {
+          "type": "tag",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "area_types": "Round,square"
+          }
+        },
+        "2157a7b5-e95b-4f72-8625-90900c7f7516": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 5,
+            "show_inventory_quantity": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "c90ecd6c-c28a-42af-be70-001c23602370",
+        "title",
+        "price",
+        "variant_picker",
+        "2157a7b5-e95b-4f72-8625-90900c7f7516",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "medium",
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 24,
+        "padding_bottom": 12
+      }
+    },
+    "c817d3ad-d37a-4d9e-b295-880247905684": {
+      "type": "product-compare-sizes",
+      "settings": {
+      }
+    },
+    "0884496d-87b8-4dcb-b8fa-55c0685bffa8": {
+      "type": "image-with-review",
+      "settings": {
+        "background_color": "#faf5ef",
+        "heading_title": "Customers Love It",
+        "heading_size": "h1",
+        "review_image": "shopify:\/\/shop_images\/20c0dee3611982522e92dff8f76a6180_c7fad5e7-fcea-4322-a043-ef1dc0cd843a.png",
+        "image_ratio": "adapt",
+        "description": "<p>“I loved the carpet 🤍 very high quality. It looks even more beautiful in reality 😍 and I’m so satisfied with the service, I received my shipment even before the expected date of arrival.”<\/p>",
+        "description_style": "body",
+        "author": "<strong>Jumama B.<\/strong><em>Verified Buyer<\/em>",
+        "description_style2": "body",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multiple-image-with-text": {
+      "type": "multiple-image-with-text",
+      "settings": {
+        "heading": "Why You’ll Love It"
+      }
+    },
+    "80243002-43b6-4b35-90db-b3b9bcf47c6c": {
+      "type": "video",
+      "settings": {
+        "heading": "Behind The Design",
+        "heading_size": "h2",
+        "sub_text": "Learn how we craft our classic rugs using modern technology.",
+        "text_alignment": "center",
+        "sm_content_size": false,
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 40
+      }
+    },
+    "f3e7321a-454f-419a-984f-17ef16fe2ed7": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Pairs Nicely With",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "inverse",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_add": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2964d312-9656-43b9-a46d-60fb62935129": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--14711810261055__2964d312-9656-43b9-a46d-60fb62935129-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I care for my rug?",
+            "icon": "none",
+            "row_content": "<p>How do I care for my rug?How do I care for my rug?How do I care for my rug?How do I care for my rug?How do I care for my rug?How do I care for my rug?How do I care for my rug?How do I care for my rug?How do I care for my rug?<\/p>",
+            "page": ""
+          }
+        },
+        "template--14711810261055__2964d312-9656-43b9-a46d-60fb62935129-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How fast is shipping?",
+            "icon": "none",
+            "row_content": "<p>How fast is shipping?How fast is shipping?How fast is shipping?How fast is shipping?How fast is shipping?How fast is shipping?How fast is shipping?How fast is shipping?How fast is shipping?<\/p>",
+            "page": ""
+          }
+        },
+        "template--14711810261055__2964d312-9656-43b9-a46d-60fb62935129-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is there a warranty?",
+            "icon": "none",
+            "row_content": "<p>Is there a warranty?Is there a warranty?Is there a warranty?Is there a warranty?Is there a warranty?Is there a warranty?Is there a warranty?Is there a warranty?Is there a warranty?Is there a warranty?<\/p>",
+            "page": ""
+          }
+        },
+        "template--14711810261055__2964d312-9656-43b9-a46d-60fb62935129-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where are your products made?",
+            "icon": "none",
+            "row_content": "<p>Where are your products made?Where are your products made?Where are your products made?Where are your products made?Where are your products made?Where are your products made?Where are your products made?Where are your products made?Where are your products made?<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14711810261055__2964d312-9656-43b9-a46d-60fb62935129-collapsible_row-1",
+        "template--14711810261055__2964d312-9656-43b9-a46d-60fb62935129-collapsible_row-2",
+        "template--14711810261055__2964d312-9656-43b9-a46d-60fb62935129-collapsible_row-3",
+        "template--14711810261055__2964d312-9656-43b9-a46d-60fb62935129-collapsible_row-4"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently asked questions",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d7f931e2-d055-465d-8aba-395860482b70": {
+      "type": "rich-text",
+      "blocks": {
+        "99a9b680-fa64-44b8-ad48-fa11b3f005a4": {
+          "type": "svg",
+          "settings": {
+            "svg_html": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"40\" height=\"40\" viewbox=\"0 0 40 40\" fill=\"none\">\n  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M19.9617 4.28717C18.7665 4.26575 17.5789 4.48035 16.4669 4.91869C15.3549 5.35703 14.3403 6.01049 13.4812 6.84163C12.6222 7.67276 11.9355 8.66524 11.4607 9.76219C10.9879 10.8544 10.7344 12.0289 10.7144 13.2188V20.7161L10.7143 20.7345V25.7143C10.7143 27.2922 9.4351 28.5714 7.85714 28.5714H4.28571C1.91878 28.5714 0 26.6527 0 24.2857V18.5714C0 16.2045 1.91878 14.2857 4.28571 14.2857H6.42865V13.2018L6.42889 13.1694C6.45547 11.4105 6.82885 9.6741 7.52766 8.05972C8.22646 6.44534 9.23695 4.98471 10.5012 3.76153C11.7655 2.53835 13.2587 1.57665 14.8953 0.931551C16.5199 0.291144 18.2542 -0.0247693 20.0001 0.0015152C21.746 -0.0247693 23.4802 0.291144 25.1049 0.931551C26.7415 1.57665 28.2347 2.53835 29.4989 3.76153C30.7632 4.98471 31.7737 6.44534 32.4725 8.05972C33.1713 9.6741 33.5447 11.4105 33.5713 13.1694L33.5715 13.2018V14.2857H35.7143C38.0812 14.2857 40 16.2045 40 18.5714V24.2857C40 26.6527 38.0812 28.5714 35.7143 28.5714H33.5715V30C33.5715 32.0838 32.7437 34.0823 31.2702 35.5558C30.0065 36.8196 28.3566 37.6083 26.5979 37.8073C25.8642 39.1158 24.464 40 22.8572 40H18.5715C16.2045 40 14.2858 38.0812 14.2858 35.7143C14.2858 33.3474 16.2045 31.4286 18.5715 31.4286H22.8572C24.4056 31.4286 25.7623 32.2498 26.5154 33.4804C27.1632 33.3313 27.7621 33.003 28.2397 32.5254C28.9095 31.8556 29.2858 30.9472 29.2858 30V13.2189C29.2658 12.0289 29.0122 10.8545 28.5394 9.76219C28.0646 8.66524 27.378 7.67276 26.5189 6.84163C25.6599 6.01049 24.6453 5.35703 23.5332 4.91869C22.4212 4.48035 21.2336 4.26575 20.0385 4.28717C20.0129 4.28763 19.9873 4.28763 19.9617 4.28717Z\" fill=\"#3D3D3D\"><\/path>\n<\/svg>"
+          }
+        },
+        "template--14711810261055__d7f931e2-d055-465d-8aba-395860482b70-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Need Help?",
+            "heading_size": "h2"
+          }
+        },
+        "template--14711810261055__d7f931e2-d055-465d-8aba-395860482b70-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our team is here to support 7 days a week.<\/p>"
+          }
+        },
+        "template--14711810261055__d7f931e2-d055-465d-8aba-395860482b70-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get In Touch",
+            "button_link": "shopify:\/\/pages\/contact-us",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "99a9b680-fa64-44b8-ad48-fa11b3f005a4",
+        "template--14711810261055__d7f931e2-d055-465d-8aba-395860482b70-heading-1",
+        "template--14711810261055__d7f931e2-d055-465d-8aba-395860482b70-text-1",
+        "template--14711810261055__d7f931e2-d055-465d-8aba-395860482b70-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-7aab0338-6061-4e89-a148-9feb2dea80c1",
+        "full_width": true,
+        "reduce_text_width_mobile": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "inverse",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_add": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "3d0b605f-af26-418e-a9b8-e3cb13b7333c": {
+      "type": "newsletter",
+      "blocks": {
+        "template--14711810261055__3d0b605f-af26-418e-a9b8-e3cb13b7333c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sign Up & Save 10%",
+            "heading_size": "h2"
+          }
+        },
+        "template--14711810261055__3d0b605f-af26-418e-a9b8-e3cb13b7333c-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our newsletter to be the first to hear about product launches and promotions, and get <strong>10% off your first order.<\/strong><\/p>"
+          }
+        },
+        "template--14711810261055__3d0b605f-af26-418e-a9b8-e3cb13b7333c-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14711810261055__3d0b605f-af26-418e-a9b8-e3cb13b7333c-heading-1",
+        "template--14711810261055__3d0b605f-af26-418e-a9b8-e3cb13b7333c-paragraph-1",
+        "template--14711810261055__3d0b605f-af26-418e-a9b8-e3cb13b7333c-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c817d3ad-d37a-4d9e-b295-880247905684",
+    "0884496d-87b8-4dcb-b8fa-55c0685bffa8",
+    "multiple-image-with-text",
+    "80243002-43b6-4b35-90db-b3b9bcf47c6c",
+    "f3e7321a-454f-419a-984f-17ef16fe2ed7",
+    "2964d312-9656-43b9-a46d-60fb62935129",
+    "d7f931e2-d055-465d-8aba-395860482b70",
+    "related-products",
+    "3d0b605f-af26-418e-a9b8-e3cb13b7333c"
+  ]
+}

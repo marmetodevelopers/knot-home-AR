@@ -1,0 +1,127 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "06378b9f-4998-40ef-ac0a-58850bd25600": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text1": "announce here",
+            "link": "shopify:\/\/policies\/legal-notice"
+          }
+        },
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text1": "Save 10% Off Rugs <strong>Shop Now <\/strong>&rarr;",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "06378b9f-4998-40ef-ac0a-58850bd25600",
+        "announcement-bar-0"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "331bb183-781c-44a2-8372-b6063471474c": {
+          "type": "button",
+          "settings": {
+            "header_button": "Shop All",
+            "header_url_id": "shopify:\/\/collections\/all"
+          }
+        },
+        "1bebee17-2bea-433a-ae86-02cfe61b9b7b": {
+          "type": "menu1",
+          "settings": {
+            "first_menu": "mobile-menu-1"
+          }
+        },
+        "3ec72d68-4792-4e12-8ba1-549375e15e21": {
+          "type": "menu2",
+          "settings": {
+            "second_menu": "test-1",
+            "sale_text": "Sale",
+            "sale_tag": "UP TO 20% OFF"
+          }
+        },
+        "27331090-157c-4b34-bccd-609a4851b61e": {
+          "type": "menu3",
+          "settings": {
+            "third_menu1": "mobile-footer-menu",
+            "third_menu2": "mobile-footer-menu2"
+          }
+        },
+        "30ce5b6a-4513-42ca-abb6-f5dfa4634f67": {
+          "type": "caption",
+          "settings": {
+            "menu_button": "Shop All",
+            "menu_button_link": "shopify:\/\/collections\/all",
+            "free_ship": "Free Shipping",
+            "shipping_url": "shopify:\/\/pages\/easy-return",
+            "return": "7-Day Returns",
+            "return_url": "shopify:\/\/pages\/easy-return"
+          }
+        },
+        "29297c9a-ac1a-49b9-a1dc-607c078bfd06": {
+          "type": "megamenuImage",
+          "settings": {
+            "heading_txt": "Elevate your space",
+            "paragraph_txt": "We design everlasting, affordable tasteful pieces that will redefine your home’s style.",
+            "button_menu": "Shop All",
+            "url_btn": "shopify:\/\/collections\/all",
+            "first_txt": "collection-menu",
+            "megamenu_name": "Accessories",
+            "down_menu": "Shop All Accessories",
+            "down_menu_url": "shopify:\/\/collections",
+            "megamenu_image1": "shopify:\/\/shop_images\/d7a4f25fc96d47f07466c36b7e1a31e1.png",
+            "badge_id": "TOP SELLER",
+            "down_menu2": "Belle Klein Collection",
+            "down_menu_url2": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "331bb183-781c-44a2-8372-b6063471474c",
+        "1bebee17-2bea-433a-ae86-02cfe61b9b7b",
+        "3ec72d68-4792-4e12-8ba1-549375e15e21",
+        "27331090-157c-4b34-bccd-609a4851b61e",
+        "30ce5b6a-4513-42ca-abb6-f5dfa4634f67",
+        "29297c9a-ac1a-49b9-a1dc-607c078bfd06"
+      ],
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "header-menu",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "always",
+        "show_line_separator": true,
+        "color_scheme": "background-1",
+        "menu_color_scheme": "background-1",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

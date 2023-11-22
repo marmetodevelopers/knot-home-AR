@@ -1,0 +1,212 @@
+{{ 'collection-card.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'carousel-component.js' | asset_url }}" defer="defer"></script>
+{% comment %} <script src="{{ 'splide.min.js' | asset_url }}" defer="defer"></script> {% endcomment %}
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 | minus: 12 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="collection_slider_section page-width section-{{ section.id }}-padding">
+  <div class="{{section.settings.heading_size}} center collection__heading">
+    {{ section.settings.title }}
+  </div>
+  <div id="carousel--{{ section.id }}" class=" tw-mr-0 tw-overflow-hidden">
+    <carousel-component
+      id="carousel--{{ section.id }}"
+      class=" collection_slider_id page-width splide"
+      data-autoplay="{{ section.settings.enable_autoplay | default: false }}"
+      data-autoplay-speed="{{ section.settings.autoplay_speed | times: 1000 | default: 3000  }}"
+      data-desktopperpage="{{ section.settings.slides_perpage | default: 2 }}"
+      data-mobileperpage="{{ section.settings.slides_perpage | default: 1 }}"
+
+      data-showdots="true"
+      data-showdotsonmobile="true"
+    >
+      <div class="splide__track collections_block">
+        <ul class="splide__list collection_container">
+          {% for block in section.blocks %}
+            <li class="splide__slide list_of_collections">
+              <div class="anchor_collection" >
+                <div class="main_image">
+                  <a class="collection_hotspot all_hotspot" href="{{block.settings.product_url}}">
+                    <div class="hotspot_icon1">{% render 'collection-svg' %}</div>
+                    <div class="hotspot_svg">{{ block.settings.product.title }}</div>
+                  </a>
+                  <a class="collection_hotspot2 all_hotspot" href="{{block.settings.product_url2}}">
+                    <div class="hotspot_icon2">{% render 'collection-svg' %}</div>
+                    <div class="hotspot_svg">{{ block.settings.product2.title }}</div>
+                  </a>
+                  <a class="collection_hotspot3 all_hotspot" href="{{block.settings.product_url3}}">
+                    <div class="hotspot_icon3">{% render 'collection-svg' %}</div>
+                    <div class="hotspot_svg">{{ block.settings.product3.title }}</div>
+                  </a>
+                  {% render 'responsive-image',card_collection:collection,  desktopImage : block.settings.collection.featured_image | image_url  %}
+                </div>
+                <a href="{{ block.settings.collection_url }}" class="collection__title">{{ block.settings.collection.title }}</a>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </carousel-component>
+  </div>
+  <script>
+    const hotspotIcons = document.querySelectorAll(
+      '.all_hotspot > .hotspot_icon1, .all_hotspot > .hotspot_icon2, .all_hotspot > .hotspot_icon3'
+    );
+    const hotspotContent = document.querySelectorAll('.all_hotspot > .hotspot_svg ');
+
+    hotspotIcons.forEach((icon, index) => {
+      icon.addEventListener('click', (event) => {
+        event.preventDefault();
+        hotspotContent[index].classList.toggle('active-hotspot');
+      });
+    });
+    const collectionContainer = document.querySelectorAll(".anchor_collection");
+    collectionContainer.forEach((container) => {
+        container.addEventListener('click', () => {
+            const link = container.querySelector('a');
+            if (link) {
+                window.location.href = link.href;
+            }
+        });
+    });
+  </script>
+</div>
+
+{% schema %}
+{
+  "name": "Collection Slider ",
+  "tag": "section",
+  "class": "section section-collection-list",
+  "max_blocks": 15,
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Collections",
+      "label": "t:sections.collection-list.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "featured_collection",
+      "name": "t:sections.collection-list.blocks.featured_collection.name",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
+        },
+        {
+          "type": "url",
+          "id": "collection_url",
+          "label": "Assign link"
+        },
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Assign Product"
+        },
+        {
+          "type": "url",
+          "id": "product_url",
+          "label": "Assign product link"
+        },
+        {
+          "type": "product",
+          "id": "product2",
+          "label": "Assign Product"
+        },
+        {
+          "type": "url",
+          "id": "product_url2",
+          "label": "Assign product link"
+        },
+        {
+          "type": "product",
+          "id": "product3",
+          "label": "Assign Product"
+        },
+        {
+          "type": "url",
+          "id": "product_url3",
+          "label": "Assign product link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection Slider",
+      "blocks": [
+        {
+          "type": "featured_collection"
+        },
+        {
+          "type": "featured_collection"
+        },
+        {
+          "type": "featured_collection"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

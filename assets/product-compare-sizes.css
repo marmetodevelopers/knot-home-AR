@@ -1,0 +1,30 @@
+.product-compare-sizes h2 {
+  margin: 36px 0;
+}
+.product-compare-sizes .flex-box {
+  margin: 0 auto;
+}
+.product-compare-sizes picture {
+  display: block;
+  padding: 0 15px;
+}
+.product-compare-sizes .sizes p {
+  margin: 10px 0 0;
+}
+.product-compare-sizes .bottom-caption {
+  margin: 20px 0 16px;
+}
+@media screen and (min-width: 750px) {
+  .product-compare-sizes h2 {
+    margin: 58px 0 28px 0;
+  }
+  .product-compare-sizes .flex-box {
+    width: 70%;
+  }
+  .product-compare-sizes .sizes p {
+    margin: 14px 0 0;
+  }
+  .product-compare-sizes .bottom-caption {
+    margin: 20px 0 26px;
+  }
+}

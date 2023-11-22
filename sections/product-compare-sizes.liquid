@@ -1,0 +1,58 @@
+{% assign productCollections = product.collections | map: 'handle' %}
+{{ 'product-compare-sizes.css' | asset_url | stylesheet_tag }}
+
+{% if productCollections contains 'carpets-rugs' %}
+  {% style %}
+    .product-compare-sizes .img--1 img {
+      width: 68%;
+    }
+    .product-compare-sizes .img--2 img {
+      width: 70%;
+    }
+    .product-compare-sizes .img--3 img {
+      width: 80%;
+    }
+    .product-compare-sizes .img--4 img {
+      width: 88%;
+    }
+    .product-compare-sizes .img--5 img {
+      width: 97%;
+    }
+    .product-compare-sizes .img--6 img {
+      width: 100%;
+    }
+  {% endstyle %}
+{% endif %}
+
+{% if product.metafields.custom.product_compare_sizes.value.size_images.value != blank %}
+  <div class="product-compare-sizes center">
+    <h2 class="font_22-32">Compare Sizes</h2>
+    <div class="sizes flex-box flex-box--3-col flex-box--4-col-tablet flex-box--6-col-desktop justify-center{% if productCollections contains 'cushions-pillows' or productCollections contains 'single-cushions' %} items-end{% endif %}">
+      {% for image in product.metafields.custom.product_compare_sizes.value.size_images.value %}
+        <div class="size flex-box__item img--{{ forloop.index }}">
+          {% if productCollections contains 'carpets-rugs' %}
+            {% render 'responsive-image', mobileImage: image, desktopImage: image, img-class: '' %}
+          {% else %}
+            {% render 'responsive-image', mobileImage: image, desktopImage: image %}
+          {% endif %}
+          <p class="font_12-20 center">
+            {{- product.metafields.custom.product_compare_sizes.value.size_values.value[forloop.index0] -}}
+          </p>
+        </div>
+      {% endfor %}
+    </div>
+    <p class="bottom-caption">3-seat couch shown</p>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Product Compare Sizes",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Product Compare Sizes"
+    }
+  ]
+}
+{% endschema %}

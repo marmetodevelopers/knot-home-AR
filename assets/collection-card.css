@@ -1,0 +1,114 @@
+.collection_slider_section {
+  padding-right: 0%;
+  background-color: #FAF5EF;
+}
+.splide__pagination__page.is-active {
+  background: #CCD6BD;
+}
+.splide__pagination__page {
+  background: #EDE8E3;
+}
+.collection_slider_id .splide__pagination {
+  left: -15px;
+  right: auto;
+  bottom: -20px;
+  column-gap: 14px;
+}
+.collection__heading {
+  font-size: 3.2rem;
+  line-height: normal;
+  font-family: pp fragment;
+  padding-bottom: 4.8rem;
+}
+.collection__title {
+  padding-top: 2rem;
+  padding-bottom: 3.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-decoration: none;
+  color: #3D3D3D;
+}
+.anchor_collection {
+  text-decoration: none;
+  color: black;
+}
+.list_of_collections {
+  padding-right: 0.6rem;
+}
+.main_image {
+  position: relative;
+  height: 491px;
+  padding-bottom: 2rem;
+}
+.main_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.collection_hotspot,
+.collection_hotspot2,
+.collection_hotspot3 {
+  position: absolute;
+}
+.collection_hotspot {
+  left: 35%;
+  top: 30%;
+  text-decoration: none;
+  color: black;
+}
+.collection_hotspot2 {
+  top: 35%;
+  left: 64%;
+  text-decoration: none;
+  color: black;
+}
+.collection_hotspot3 {
+  top: 60%;
+  left: 18%;
+  text-decoration: none;
+  color: black;
+}
+.hotspot_svg {
+  display: none;
+  background-color: white;
+  padding: 6px;
+  border-radius: 2px 8px 8px 8px;
+  font-weight: 600;
+  font-family: pp Fragment;
+  line-height: 18px;
+  letter-spacing: normal;
+}
+.hotspot_svg:hover {
+  display: block;
+  color: black;
+}
+.collection_hotspot .hotspot_icon1:hover + .hotspot_svg,
+.collection_hotspot2 .hotspot_icon2:hover + .hotspot_svg,
+.collection_hotspot3 .hotspot_icon3:hover + .hotspot_svg {
+  display: block;
+}
+@media screen and (min-width:991px) and (max-width:1240px) {
+  .main_image {
+    height: 350px;
+  }
+}
+@media screen and (max-width:990px) {
+  .main_image {
+    height: 285px;
+    padding-bottom: 17px;
+  }
+}
+@media screen and (max-width:750px) {
+  .collection__heading {
+    font-size: 2.2rem;
+    line-height: 26.4px;
+    padding-bottom: 3rem;
+  }
+  .collection__title {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+    font-size: 1.6rem;
+    line-height: 19.6px;
+  }
+}

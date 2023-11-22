@@ -1,0 +1,449 @@
+{
+  "sections": {
+    "f72f0e9d-299a-4e90-b0bd-3e01bb1831b2": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14675950665791__f72f0e9d-299a-4e90-b0bd-3e01bb1831b2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "stars": true,
+            "review_text": "Over 5,000 5-Star Reviews",
+            "heading": "Elevate your space",
+            "heading_size": "h1"
+          }
+        },
+        "template--14675950665791__f72f0e9d-299a-4e90-b0bd-3e01bb1831b2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We design everlasting, affordable tasteful pieces that will redefine your home’s style.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14675950665791__f72f0e9d-299a-4e90-b0bd-3e01bb1831b2-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop the Sale",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": false
+          }
+        },
+        "template--14675950665791__f72f0e9d-299a-4e90-b0bd-3e01bb1831b2-button-2-1": {
+          "type": "button-2",
+          "settings": {
+            "secondary_button": "Shop All",
+            "button_link2": "shopify:\/\/collections\/all",
+            "button_style_secondary2": false
+          }
+        },
+        "template--14675950665791__f72f0e9d-299a-4e90-b0bd-3e01bb1831b2-caption-1": {
+          "type": "caption",
+          "settings": {
+            "caption": "Free Shipping",
+            "caption1": "7-Day Returns",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "template--14675950665791__f72f0e9d-299a-4e90-b0bd-3e01bb1831b2-heading-1",
+        "template--14675950665791__f72f0e9d-299a-4e90-b0bd-3e01bb1831b2-text-1",
+        "template--14675950665791__f72f0e9d-299a-4e90-b0bd-3e01bb1831b2-button-1",
+        "template--14675950665791__f72f0e9d-299a-4e90-b0bd-3e01bb1831b2-button-2-1",
+        "template--14675950665791__f72f0e9d-299a-4e90-b0bd-3e01bb1831b2-caption-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_3.png",
+        "height": "large",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "398784d1-cf25-42b6-9fd3-ae2bbb05bbc5": {
+      "type": "slider-section",
+      "blocks": {
+        "template--14675950665791__398784d1-cf25-42b6-9fd3-ae2bbb05bbc5-caption-1": {
+          "type": "caption",
+          "settings": {
+            "description": "“Knot Home is the premier designer of accessible, modern home decor.”",
+            "text_style": "subtitle",
+            "text_size": "medium",
+            "image": "shopify:\/\/shop_images\/Architectural_Digest_logo_1_1.png"
+          }
+        },
+        "38fc93ac-71a5-4c23-982b-14cb3005bb53": {
+          "type": "caption",
+          "settings": {
+            "description": "“Knot Home is the premier designer of accessible, modern home decor.”",
+            "text_style": "subtitle",
+            "text_size": "medium",
+            "image": "shopify:\/\/shop_images\/Architectural_Digest_logo_1_1.png"
+          }
+        },
+        "5532d2d1-8e9d-40db-affc-a9eaed8e9463": {
+          "type": "caption",
+          "settings": {
+            "description": "“Knot Home is the premier designer of accessible, modern home decor.”",
+            "text_style": "subtitle",
+            "text_size": "medium",
+            "image": "shopify:\/\/shop_images\/Architectural_Digest_logo_1_1.png"
+          }
+        },
+        "38121f9e-28b8-4ca4-b6af-da86e36f8a3c": {
+          "type": "caption",
+          "settings": {
+            "description": "“Knot Home is the premier designer of accessible, modern home decor.”",
+            "text_style": "subtitle",
+            "text_size": "medium",
+            "image": "shopify:\/\/shop_images\/Architectural_Digest_logo_1_1.png"
+          }
+        },
+        "78090e92-162b-4490-8398-722258ab3f7a": {
+          "type": "caption",
+          "settings": {
+            "description": "“Knot Home is the premier designer of accessible, modern home decor.”",
+            "text_style": "subtitle",
+            "text_size": "medium",
+            "image": "shopify:\/\/shop_images\/Architectural_Digest_logo_1_2.png"
+          }
+        },
+        "2a727f40-a694-4dfc-ae89-f6986a32ff70": {
+          "type": "caption",
+          "settings": {
+            "description": "“Knot Home is the premier designer of accessible, modern home decor.”",
+            "text_style": "subtitle",
+            "text_size": "medium",
+            "image": "shopify:\/\/shop_images\/Architectural_Digest_logo_1_2.png"
+          }
+        },
+        "11a216d7-5310-495b-860d-c11f2ba73728": {
+          "type": "caption",
+          "settings": {
+            "description": "“Knot Home is the premier designer of accessible, modern home decor.”",
+            "text_style": "subtitle",
+            "text_size": "medium",
+            "image": "shopify:\/\/shop_images\/Architectural_Digest_logo_1_2.png"
+          }
+        },
+        "27c7c0ed-d3e3-4af5-9e03-f521a107c6e4": {
+          "type": "caption",
+          "settings": {
+            "description": "“Knot Home is the premier designer of accessible, modern home decor.”",
+            "text_style": "subtitle",
+            "text_size": "medium",
+            "image": "shopify:\/\/shop_images\/Architectural_Digest_logo_1_2.png"
+          }
+        },
+        "263d3474-60f2-4add-9678-f9acd1f2eac6": {
+          "type": "caption",
+          "settings": {
+            "description": "“Knot Home is the premier designer of accessible, modern home decor.”",
+            "text_style": "subtitle",
+            "text_size": "medium",
+            "image": "shopify:\/\/shop_images\/Architectural_Digest_logo_1_2.png"
+          }
+        },
+        "5f88996b-4066-42b0-98be-b8ac29290273": {
+          "type": "caption",
+          "settings": {
+            "description": "“Knot Home is the premier designer of accessible, modern home decor.”",
+            "text_style": "subtitle",
+            "text_size": "medium",
+            "image": "shopify:\/\/shop_images\/Architectural_Digest_logo_1_2.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--14675950665791__398784d1-cf25-42b6-9fd3-ae2bbb05bbc5-caption-1",
+        "38fc93ac-71a5-4c23-982b-14cb3005bb53",
+        "5532d2d1-8e9d-40db-affc-a9eaed8e9463",
+        "38121f9e-28b8-4ca4-b6af-da86e36f8a3c",
+        "78090e92-162b-4490-8398-722258ab3f7a",
+        "2a727f40-a694-4dfc-ae89-f6986a32ff70",
+        "11a216d7-5310-495b-860d-c11f2ba73728",
+        "27c7c0ed-d3e3-4af5-9e03-f521a107c6e4",
+        "263d3474-60f2-4add-9678-f9acd1f2eac6",
+        "5f88996b-4066-42b0-98be-b8ac29290273"
+      ],
+      "settings": {
+        "heading_title": "",
+        "heading_size": "h1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "bdd7d79f-597c-45cd-a52c-8f27dbf191fe": {
+      "type": "product-list",
+      "settings": {
+        "heading_title": "Best Sellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "product__list": [
+          "adarna-bundle",
+          "addie-arneson",
+          "albert-ellis",
+          "albert-sienna"
+        ],
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "button_id": "Shop All Best Sellers",
+        "butoon_url": "shopify:\/\/collections\/all",
+        "button_id2": "",
+        "butoon2_url": "",
+        "columns_mobile": "2",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "afb775d4-c5a0-4b95-b862-ef061e02352d": {
+      "type": "product-list",
+      "settings": {
+        "heading_title": "Last Chance",
+        "heading_size": "h1",
+        "description": "<p>Save up to 20% Off<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "product__list": [
+          "adarna-bundle",
+          "addie-arneson",
+          "albert-ellis-ii",
+          "alessandra-scarlet"
+        ],
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "button_id": "Shop All Last Chance",
+        "butoon_url": "shopify:\/\/collections\/all",
+        "button_id2": "",
+        "butoon2_url": "",
+        "columns_mobile": "2",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "c54a5a0b-a2a6-41b1-8910-48972b083f76": {
+      "type": "collection-slider",
+      "blocks": {
+        "template--14675950665791__c54a5a0b-a2a6-41b1-8910-48972b083f76-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "trays-plates-candle-holders",
+            "collection_url": "shopify:\/\/collections\/trays-plates-candle-holders",
+            "product": "adarna-bundle",
+            "product_url": "shopify:\/\/products\/adarna-bundle",
+            "product2": "adora-bianca",
+            "product_url2": "shopify:\/\/products\/adora-bianca",
+            "product3": "adora-bianca",
+            "product_url3": "shopify:\/\/products\/adora-bianca"
+          }
+        },
+        "template--14675950665791__c54a5a0b-a2a6-41b1-8910-48972b083f76-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "carpets-rugs",
+            "collection_url": "shopify:\/\/collections\/carpets-rugs",
+            "product": "adarna-bundle",
+            "product_url": "",
+            "product2": "albert-ellis-ii",
+            "product_url2": "",
+            "product3": "alba-canova",
+            "product_url3": ""
+          }
+        },
+        "template--14675950665791__c54a5a0b-a2a6-41b1-8910-48972b083f76-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee-table-2",
+            "collection_url": "shopify:\/\/collections\/coffee-table-2",
+            "product": "aidan-bianca",
+            "product_url": "",
+            "product2": "albert-sienna",
+            "product_url2": "",
+            "product3": "alejandro-bundle",
+            "product_url3": ""
+          }
+        },
+        "1e6c6f5c-99e0-48eb-ba57-e2d017e54507": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bundle-save-accessories",
+            "collection_url": "shopify:\/\/collections\/bundle-save-accessories",
+            "product": "addie-arneson",
+            "product_url": "",
+            "product2": "adelia-bianca",
+            "product_url2": "",
+            "product3": "adeline-bundle",
+            "product_url3": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14675950665791__c54a5a0b-a2a6-41b1-8910-48972b083f76-featured_collection-1",
+        "template--14675950665791__c54a5a0b-a2a6-41b1-8910-48972b083f76-featured_collection-2",
+        "template--14675950665791__c54a5a0b-a2a6-41b1-8910-48972b083f76-featured_collection-3",
+        "1e6c6f5c-99e0-48eb-ba57-e2d017e54507"
+      ],
+      "settings": {
+        "title": "Shop Room Ideas",
+        "heading_size": "h1",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "d65ce412-380d-46cf-b652-a5c3be3f0a8c": {
+      "type": "image-with-review",
+      "settings": {
+        "background_color": "#CCD6BD",
+        "heading_title": "Customers Love It",
+        "heading_size": "h1",
+        "review_image": "shopify:\/\/shop_images\/image_56_2.png",
+        "image_ratio": "adapt",
+        "description": "<p>“I loved the carpet 🤍 very high quality. It looks even more beautiful in reality 😍 and I’m so satisfied with the service, I received my shipment even before the expected date of arrival.”<\/p>",
+        "description_style": "body",
+        "author": "<strong>Jumama B. <\/strong><em>Verified Buyer<\/em>",
+        "description_style2": "body",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "664a64c7-f5a4-450a-85b4-b864c1d676dc": {
+      "type": "product-list",
+      "settings": {
+        "heading_title": "New Arrivals",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "product__list": [
+          "adarna-bundle",
+          "addie-arneson",
+          "albert-ellis",
+          "alessandra-scarlet"
+        ],
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "button_id": "Shop All New Arrivals",
+        "butoon_url": "shopify:\/\/collections\/all",
+        "button_id2": "",
+        "butoon2_url": "",
+        "columns_mobile": "2",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "79d6bddf-2210-4af3-a878-ad03e6eb462c": {
+      "type": "luxor-collection",
+      "settings": {
+        "title": "Shop by Type",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "vases-canisters-jars",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "luxor_btn": "Shop All",
+        "luxor_btn_url": "shopify:\/\/collections",
+        "free_shipping": "Free Shipping",
+        "return": "7-Day Returns",
+        "swipe_on_mobile": false,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "305c8178-8e09-42ae-b70b-c1b522cc3998": {
+      "type": "video-with-text",
+      "settings": {
+        "enable_video_looping": true,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "heading_title": "Our Team",
+        "heading_size": "h1",
+        "description": "<p>We are a small team with a passion for interior design dedicated to making tasteful pieces that last.<\/p>",
+        "description_style": "body",
+        "designed": "DESIGNED & made in UAE",
+        "quality": "100% Customer Satisfaction",
+        "description_style2": "uppercase",
+        "button": "About Us",
+        "button_url": "shopify:\/\/pages\/about-us",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "d9c8cef3-544e-439b-bae7-8a85fd8a83fc": {
+      "type": "newsletter",
+      "blocks": {
+        "template--14675950665791__d9c8cef3-544e-439b-bae7-8a85fd8a83fc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sign Up & Save 10%",
+            "heading_size": "h2"
+          }
+        },
+        "template--14675950665791__d9c8cef3-544e-439b-bae7-8a85fd8a83fc-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our newsletter to be the first to hear about product launches and promotions, and get 10% off your first order.<\/p>"
+          }
+        },
+        "template--14675950665791__d9c8cef3-544e-439b-bae7-8a85fd8a83fc-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14675950665791__d9c8cef3-544e-439b-bae7-8a85fd8a83fc-heading-1",
+        "template--14675950665791__d9c8cef3-544e-439b-bae7-8a85fd8a83fc-paragraph-1",
+        "template--14675950665791__d9c8cef3-544e-439b-bae7-8a85fd8a83fc-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "f72f0e9d-299a-4e90-b0bd-3e01bb1831b2",
+    "398784d1-cf25-42b6-9fd3-ae2bbb05bbc5",
+    "bdd7d79f-597c-45cd-a52c-8f27dbf191fe",
+    "afb775d4-c5a0-4b95-b862-ef061e02352d",
+    "c54a5a0b-a2a6-41b1-8910-48972b083f76",
+    "d65ce412-380d-46cf-b652-a5c3be3f0a8c",
+    "664a64c7-f5a4-450a-85b4-b864c1d676dc",
+    "79d6bddf-2210-4af3-a878-ad03e6eb462c",
+    "305c8178-8e09-42ae-b70b-c1b522cc3998",
+    "d9c8cef3-544e-439b-bae7-8a85fd8a83fc"
+  ]
+}

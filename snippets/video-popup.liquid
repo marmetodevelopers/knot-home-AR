@@ -1,0 +1,14 @@
+{% assign  value =  product.metafields.custom.product_video_test | split: "/" %} 
+{% for item in value %}
+  {% if forloop.last %}
+    {% assign video_embed_id = item %}
+  {% endif %}
+  {% endfor %}
+
+<div class="overlay" id="overlay"></div>
+
+<div class="popup image-video-popup" id="popup">
+    <div class="content">
+        <iframe src="https://www.youtube.com/embed/{{ video_embed_id }}?enablejsapi=1" class="js-youtube" allow="autoplay; encrypted-media" allowfullscreen title="{{ section.settings.description | escape }}" width="727" height="409"></iframe>
+    </div>
+</div>

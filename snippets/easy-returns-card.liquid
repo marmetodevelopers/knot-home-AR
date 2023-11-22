@@ -1,0 +1,17 @@
+<div class="easy-return-card" style="background-image: url('{{ images['easy-returns-f72648e4f43b39e940e54315db89e85e.png'] | image_url }}')">
+  {% if directTo != blank %}
+    <a href="{{ directTo }}">
+  {% endif %}
+  <div class="content">
+    <svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84" fill="none">
+      <g id="arrow-round-left--diagram-round-arrow-left">
+      <path id="Vector" d="M28.5919 3.57178L13.8062 18.3575L28.5919 33.1432" stroke="#3D3D3D" stroke-width="5.91429" stroke-linecap="round" stroke-linejoin="round"/>
+      <path id="Vector_2" d="M10.8496 49.4072C10.8496 55.5483 12.6707 61.5515 16.0825 66.6576C19.4943 71.7638 24.3436 75.7435 30.0173 78.0936C35.6909 80.4437 41.9341 81.0586 47.9572 79.8606C53.9803 78.6625 59.5129 75.7053 63.8553 71.3628C68.1977 67.0204 71.1549 61.4878 72.353 55.4647C73.5511 49.4416 72.9362 43.1985 70.5861 37.5249C68.236 31.8512 64.2562 27.0019 59.1501 23.59C54.0439 20.1782 48.0407 18.3572 41.8996 18.3572H13.8068" stroke="#3D3D3D" stroke-width="5.91429" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </svg>
+    <p>7-Day Easy Returns</p>
+  </div>
+  {% if directTo != blank %}
+    </a>
+  {%- endif %}
+</div>

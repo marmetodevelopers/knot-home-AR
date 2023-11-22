@@ -1,0 +1,24 @@
+<div class="cart-upsell-product-card flex">
+  <div class="image-product">
+    {% render 'responsive-image',
+      mobileImage: card_product.featured_image,
+      desktopImage: card_product.featured_image,
+      class: 'media media--square'
+    %}
+  </div>
+  <div class="content-product">
+    <p>{{ card_product.title }}</p>
+    <small>{{ card_product.vendor }}</small>
+    <p>
+      {{ currency.symbol }}
+      <strong>{{ card_product.selected_or_first_available_variant.price | money_without_currency }}</strong>
+    </p>
+    <product-form-cart>
+    <form method="post" action="/cart/add">
+      <input type="hidden" name="id" value="{{ card_product.selected_or_first_available_variant.id }}">
+      <input min="1" type="hidden" id="quantity" name="quantity" value="1">
+      <input type="submit" value="+ Add" class="quick-add__submit button button--full-width button--primary">
+    </form>
+    </product-form-cart>
+  </div>
+</div>

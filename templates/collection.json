@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "vertical",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "696b1b79-0a73-42b9-aef6-97f7a3495d9b": {
+      "type": "luxor-collection",
+      "settings": {
+        "title": "More from Knot Home",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "vases-canisters-jars",
+        "products_to_show": 3,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "a8271d02-cd24-488d-bef7-8aa8238f1aa6": {
+      "type": "text-and-video",
+      "settings": {
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "heading_title": "How Our Rugs Are Made",
+        "heading_size": "h1",
+        "description": "<p>Our rugs are made with quality craftsmanship and materials in the UAE.<\/p>",
+        "description_style": "subtitle",
+        "designed": "",
+        "quality": "",
+        "description_style2": "body",
+        "button": "",
+        "button_url": "",
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "c215a701-2f41-4f5a-8298-c992c8dac5c2": {
+      "type": "newsletter",
+      "blocks": {
+        "template--14675950600255__c215a701-2f41-4f5a-8298-c992c8dac5c2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sign Up & Save 10%",
+            "heading_size": "h2"
+          }
+        },
+        "template--14675950600255__c215a701-2f41-4f5a-8298-c992c8dac5c2-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Join our newsletter to be the first to hear about product launches and promotions, and get 10% off your first order.<\/p>"
+          }
+        },
+        "template--14675950600255__c215a701-2f41-4f5a-8298-c992c8dac5c2-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--14675950600255__c215a701-2f41-4f5a-8298-c992c8dac5c2-heading-1",
+        "template--14675950600255__c215a701-2f41-4f5a-8298-c992c8dac5c2-paragraph-1",
+        "template--14675950600255__c215a701-2f41-4f5a-8298-c992c8dac5c2-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "696b1b79-0a73-42b9-aef6-97f7a3495d9b",
+    "a8271d02-cd24-488d-bef7-8aa8238f1aa6",
+    "c215a701-2f41-4f5a-8298-c992c8dac5c2"
+  ]
+}
